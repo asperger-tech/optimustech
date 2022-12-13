@@ -1,0 +1,31 @@
+.empregos{
+    padding: 0 20rem;
+}
+.emprego__categoria{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+.emprego{
+    border: 1px solid #EAECF0;
+    padding: 2rem;
+    border-radius: 16px;
+    margin-bottom: 2rem;
+    transition: .5s all ease-in-out;
+}
+.emprego:hover{
+    transform: scale(1.015);
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.emprego__cargo {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+.emprego__descricao{
+    color: var(--cinza-claro);
+}
+.margin{
+    margin-top: 5rem;
+}

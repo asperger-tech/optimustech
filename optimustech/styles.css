@@ -1,0 +1,22 @@
+@import url(css/header.css);
+@import url(css/metricas.css);
+@import url(css/sobrenos.css);
+@import url(css/vagas.css);
+@import url(css/empregos.css);
+@import url(css/colaboradores.css);
+@import url(css/rodape.css);
+
+:root{
+    --cinza-claro:#667085;
+    --vermelho-escuro:#8E2424;
+    --preto-claro:#101828;
+}
+
+
+body{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+}
+.container{
+    margin: 0 6em;
+}

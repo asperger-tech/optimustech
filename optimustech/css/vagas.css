@@ -1,0 +1,29 @@
+.vagas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 7rem 0;
+}
+.vagas__abertas{
+    background: #fff6f6;
+    padding: .5rem;
+    border-radius: 25px;
+    color: var(--vermelho-escuro);
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 1.2rem;
+}
+.vagas__titulo{
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+.vagas__descricao{
+    color: var(--cinza-claro);
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 5rem;
+}
+.vagas__imagem{
+    width: 80%;
+}
